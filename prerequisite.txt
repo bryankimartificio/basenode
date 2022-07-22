@@ -1,0 +1,5 @@
+- knowledge in node
+- knowledge in docker
+    - docker file or docker commmands
+- git
+- bash or makefile
