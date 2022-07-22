@@ -1,27 +1,29 @@
 - git
 - bash or makefile
 - token: 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
-- clone: git clone https://bryankimartificio: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@github.com/bryankimartificio/basenode.git
-- push: git push https://bryankimartificio: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@github.com/bryankimartificio/basenode.git
+- clone: git clone https://bryankimartificio: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@github.com/bryankimartificio/basenode.git
 
 Handson:
 REPOSITORY PROCEDURE
-1. clone repository (main)
-2. create new branch "feature/<yourname>
-4. run "npm install"
-5. create new file "applicants.txt"
-6. write your name inside "the applicants.txt"
-7. run "git add ." 
-8. run `git commit -m "feat(<name>): my commit"`
-9. run git push <command for push>
-10. run `git status` 
+- clone repository (main)
+- go to basenode folder
+- create new branch "feature/<yourname>"
+- checkout to branch "feature/<yourname>"
+- create new text file "applicants.txt"
+- write your name inside "the applicants.txt"
+- add all changes in docker
+- commit `git commit -m "feat(<name>): my commit"`
+- run git push -u origin <your branch name>
+- run `git status` 
+- run pause
+
 
 DOCKER PROCEDURE:
 - knowledge in node
 - knowledge in docker
     - docker file or docker commmands
 
-1. merge main to <your branch>
-2. run `docker build . -t "myapp"
-3. run `command to create new container`
-4. test in browser `http:\\localhost:3000\v1\api\users`
+- build docker image using Dockerfile
+- run the images on a container using 3000 port
+- list all container and test
+
