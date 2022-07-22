@@ -1,6 +1,6 @@
 - git
 - bash or makefile
-- token: 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
+- token: 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
 - clone: git clone https://bryankimartificio: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@github.com/bryankimartificio/basenode.git
 
 Handson:
